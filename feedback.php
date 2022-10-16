@@ -65,7 +65,7 @@ if (isset($_POST['msgsubmit'])) {
                 <div class="card-body">
                     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" enctype="multipart/form-data">
                         <div class="row text-center justify-content-center my-4">
-                            <input type="text" class="form-control w-50" name="name" placeholder="Full Name" required>
+                            <input type="text" class="form-control w-100" name="name" placeholder="Full Name" required>
                         </div>
                         <div class="row text-center justify-content-center my-4">
                             <input type="text" class="form-control w-50" name="email" placeholder="Email ID" required>
