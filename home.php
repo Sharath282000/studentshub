@@ -264,7 +264,7 @@ if (isset($_GET['post_id'])) {
         </nav>
         <div class="container-fluid mt-md-4 pt-md-4" id="minddiv">
             <div class="row">
-                <div class="col-md-3" id="news">
+                <div class="col-lg-3 col-md-12" id="news">
                     <div class="bg-white p-4 mb-5 shadow border-0" style="border-radius:25px">
                         <div class="row">
                             <h5 class="p-2">Latest Jobs for you</h5>
@@ -946,7 +946,7 @@ if (isset($_GET['post_id'])) {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="bg-white p-3 shadow" style="border-radius:15px">
                         <div class="d-flex" type="button">
                             <div class="p-1">
@@ -3302,7 +3302,7 @@ if (isset($_GET['post_id'])) {
                         ?>
                     </div>
                 </div>
-                <div class="col-md-3" id="friends">
+                <div class="col-lg-3 col-md-12" id="friends">
                     <div class="bg-white p-4 border-0 shadow" style="border-radius:25px">
                         <h5>Look your friends</h5>
                         <?php
@@ -3319,7 +3319,7 @@ if (isset($_GET['post_id'])) {
                                         </div>
                                     </div>
                                     <div class="text-center mb-4">
-                                        <a href="profile.php?account=<?php echo $fetch['Email_id'] ?>" class="btn btn-outline-success w-100"><i class="fas fa-eye" id="eye"></i>
+                                        <a href="profile.php?account=<?php echo $fetch['Email_id'] ?>" class="btn btn-outline-success"><i class="fas fa-eye" id="eye"></i>
                                             Look profile</a>
                                     </div>
                                 </div>
