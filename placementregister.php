@@ -81,7 +81,7 @@ if (isset($_POST['submit'])) {
             $row = $sel->fetch_assoc();
         ?>
             <h4 class="mt-3 mb-3 text-center">Welcome to Students Hub <?php echo $row['First_name']; ?> <?php echo $row['Last_name']; ?></h4>
-            <div class="mt-5 bg-white p-5 shadow w-50 mb-5" style="border-radius: 15px;display:block;margin-left:auto;margin-right:auto;">
+            <div class="mt-5 bg-white p-5 shadow w-100 mb-5" style="border-radius: 15px;display:block;margin-left:auto;margin-right:auto;">
                 <h6 class="text-center p-3">Placement Registration</h6>
                 <hr>
                 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" enctype="multipart/form-data">
