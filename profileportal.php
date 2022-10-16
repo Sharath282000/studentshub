@@ -54,7 +54,7 @@ $email = $_SESSION['email'];
                     <div class="row">
                         <?php while ($row = $sel->fetch_assoc()) {
                         ?>
-                            <div class="col-md-4 mb-3">
+                            <div class="col-lg-4 col-md-6 mb-3">
                                 <div class="card bg-white p-2 shadow" style="border-radius: 20px;">
                                     <div class="card-body">
                                         <div class="d-flex align-items-center p-2">
