@@ -75,7 +75,7 @@ if (isset($_GET['post_id'])) {
                         </div>
                 </div>
                 <div class="row mt-4 mb-5">
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-12 ">
                         <div class="bg-white border-0 p-3 shadow" style="border-radius:25px">
                             <div class="row text-center p-3">
                                 <h5>User Details</h5>
@@ -139,7 +139,7 @@ if (isset($_GET['post_id'])) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 shadow bg-white border-0 h-100 p-3 mb-5" style="border-radius:15px">
+                    <div class="col-lg-8 col-md-12 mt-2 shadow bg-white border-0 h-100 p-3 mb-5" style="border-radius:15px">
                         <div class="bg-white border-0 p-2" style="border-radius:15px">
                             <?php
                             $postsel = $conn->query("select posts.Post_id,posts.Post_access,posts.User_id,posts.Post_file,posts.Caption,posts.Datetime,students_register.ID,students_register.Profile_pic,students_register.First_name,students_register.Last_name from posts inner join students_register on posts.User_id=students_register.ID where students_register.Email_id='$email' and posts.Post_access='Public' order by posts.Post_id desc");
