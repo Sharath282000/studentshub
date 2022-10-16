@@ -101,7 +101,7 @@ if (isset($_POST['submit'])) {
                 $jobid = $job['Job_id'];
                 if ($acc == $email && $jobid == $id) {
             ?>
-                    <div class="mt-5 bg-white p-5 shadow w-50 mb-5" style="border-radius: 15px;display:block;margin-left:auto;margin-right:auto;">
+                    <div class="mt-5 bg-white p-5 shadow w-100 mb-5" style="border-radius: 15px;display:block;margin-left:auto;margin-right:auto;">
                         <h6 class="text-center p-3">Job Registration</h6>
                         <p class="text-center text-muted mb-2">Check your details are correct</p>
                         <hr>
