@@ -93,7 +93,7 @@ if (isset($_POST['update'])) {
                     $row = $sel->fetch_assoc();
     ?>
                     <section id="editjob">
-                        <div class="mt-5 mb-5 shadow p-5 w-50 text-white" style="display:block;margin-left:auto;margin-right:auto;border-radius:25px;background-color: #485461;background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);">
+                        <div class="mt-5 mb-5 shadow p-5 w-100 text-white" style="display:block;margin-left:auto;margin-right:auto;border-radius:25px;background-color: #485461;background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);">
                             <h5>Edit Job <i class="fa-solid fa-gear"></i></h5>
                             <hr>
                             <div class="row">
