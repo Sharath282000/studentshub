@@ -73,7 +73,7 @@ if ($res->num_rows == 1) {
                                                         $stamp = strtotime($olddate);
                                                         $newdate = date("d-m-Y", $stamp);
                                 ?>
-                                                        <div class="col-lg-3 mb-2">
+                                                        <div class="col-lg-3 col-md-6 mb-2">
                                                             <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                 <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                 <div class="jobcontent">
@@ -94,7 +94,7 @@ if ($res->num_rows == 1) {
                                                             $stamp = strtotime($olddate);
                                                             $newdate = date("d-m-Y", $stamp);
                                                         ?>
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-3 col-md-6">
                                                                 <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                     <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                     <div class="jobcontent">
@@ -116,7 +116,7 @@ if ($res->num_rows == 1) {
                                                             $stamp = strtotime($olddate);
                                                             $newdate = date("d-m-Y", $stamp);
                                                         ?>
-                                                            <div class="col-lg-3 mb-2">
+                                                            <div class="col-lg-3 col-md-6 mb-2">
                                                                 <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                     <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                     <div class="jobcontent">
@@ -137,7 +137,7 @@ if ($res->num_rows == 1) {
                                                         $stamp = strtotime($olddate);
                                                         $newdate = date("d-m-Y", $stamp);
                                                         ?>
-                                                        <div class="col-lg-3">
+                                                        <div class="col-lg-3 col-md-6">
                                                             <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                 <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                 <div class="jobcontent">
@@ -158,7 +158,7 @@ if ($res->num_rows == 1) {
                                                             $stamp = strtotime($olddate);
                                                             $newdate = date("d-m-Y", $stamp);
                                                         ?>
-                                                            <div class="col-lg-3 mb-2">
+                                                            <div class="col-lg-3 col-md-6 mb-2">
                                                                 <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                     <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                     <div class="jobcontent">
@@ -180,7 +180,7 @@ if ($res->num_rows == 1) {
                                                             $stamp = strtotime($olddate);
                                                             $newdate = date("d-m-Y", $stamp);
                                                         ?>
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-3 col-md-6">
                                                                 <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                     <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                     <div class="jobcontent">
@@ -202,7 +202,7 @@ if ($res->num_rows == 1) {
                                                             $stamp = strtotime($olddate);
                                                             $newdate = date("d-m-Y", $stamp);
                                                         ?>
-                                                            <div class="col-lg-3 mb-2">
+                                                            <div class="col-lg-3 col-md-6 mb-2">
                                                                 <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                     <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                     <div class="jobcontent">
@@ -224,7 +224,7 @@ if ($res->num_rows == 1) {
                                                             $stamp = strtotime($olddate);
                                                             $newdate = date("d-m-Y", $stamp);
                                                         ?>
-                                                            <div class="col-lg-3 mb-2">
+                                                            <div class="col-lg-3 col-md-6 mb-2">
                                                                 <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                     <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                     <div class="jobcontent">
@@ -247,7 +247,7 @@ if ($res->num_rows == 1) {
                                                                 $stamp = strtotime($olddate);
                                                                 $newdate = date("d-m-Y", $stamp);
                                                             ?>
-                                                                <div class="col-lg-3 mb-2">
+                                                                <div class="col-lg-3 col-md-6 mb-2">
                                                                     <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                         <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                         <div class="jobcontent">
@@ -271,7 +271,7 @@ if ($res->num_rows == 1) {
                                                                 $stamp = strtotime($olddate);
                                                                 $newdate = date("d-m-Y", $stamp);
                                                             ?>
-                                                                <div class="col-lg-3 mb-2">
+                                                                <div class="col-lg-3 col-md-6 mb-2">
                                                                     <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                         <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                         <div class="jobcontent">
@@ -295,7 +295,7 @@ if ($res->num_rows == 1) {
                                                                 $stamp = strtotime($olddate);
                                                                 $newdate = date("d-m-Y", $stamp);
                                                             ?>
-                                                                <div class="col-lg-3 mb-2">
+                                                                <div class="col-lg-3 col-md-6 mb-2">
                                                                     <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                         <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                         <div class="jobcontent">
@@ -340,7 +340,7 @@ if ($res->num_rows == 1) {
                                                             $stamp = strtotime($olddate);
                                                             $newdate = date("d-m-Y", $stamp);
                                                             ?>
-                                                            <div class="col-lg-3 mb-2">
+                                                            <div class="col-lg-3 col-md-6 mb-2">
                                                                 <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                     <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                     <div class="jobcontent">
@@ -363,7 +363,7 @@ if ($res->num_rows == 1) {
                                                                 $stamp = strtotime($olddate);
                                                                 $newdate = date("d-m-Y", $stamp);
                                                             ?>
-                                                                <div class="col-lg-3 mb-2">
+                                                                <div class="col-lg-3 col-md-6 mb-2">
                                                                     <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                         <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                         <div class="jobcontent">
@@ -387,7 +387,7 @@ if ($res->num_rows == 1) {
                                                                 $stamp = strtotime($olddate);
                                                                 $newdate = date("d-m-Y", $stamp);
                                                             ?>
-                                                                <div class="col-lg-3 mb-2">
+                                                                <div class="col-lg-3 col-md-6 mb-2">
                                                                     <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                         <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                         <div class="jobcontent">
@@ -410,7 +410,7 @@ if ($res->num_rows == 1) {
                                                             $stamp = strtotime($olddate);
                                                             $newdate = date("d-m-Y", $stamp);
                                                             ?>
-                                                            <div class="col-lg-3 mb-2">
+                                                            <div class="col-lg-3 col-md-6 mb-2">
                                                                 <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                     <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                     <div class="jobcontent">
@@ -432,7 +432,7 @@ if ($res->num_rows == 1) {
                                                             $stamp = strtotime($olddate);
                                                             $newdate = date("d-m-Y", $stamp);
                                                         ?>
-                                                            <div class="col-lg-3 mb-2">
+                                                            <div class="col-lg-3 col-md-6 mb-2">
                                                                 <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                     <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                     <div class="jobcontent">
@@ -455,7 +455,7 @@ if ($res->num_rows == 1) {
                                                                 $stamp = strtotime($olddate);
                                                                 $newdate = date("d-m-Y", $stamp);
                                                             ?>
-                                                                <div class="col-lg-3 mb-2">
+                                                                <div class="col-lg-3 col-md-6 mb-2">
                                                                     <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                         <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                         <div class="jobcontent">
@@ -479,7 +479,7 @@ if ($res->num_rows == 1) {
                                                                 $stamp = strtotime($olddate);
                                                                 $newdate = date("d-m-Y", $stamp);
                                                             ?>
-                                                                <div class="col-lg-3 mb-2">
+                                                                <div class="col-lg-3 col-md-6 mb-2">
                                                                     <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                         <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                         <div class="jobcontent">
@@ -503,7 +503,7 @@ if ($res->num_rows == 1) {
                                                                 $stamp = strtotime($olddate);
                                                                 $newdate = date("d-m-Y", $stamp);
                                                             ?>
-                                                                <div class="col-lg-3 mb-2">
+                                                                <div class="col-lg-3 col-md-6 mb-2">
                                                                     <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                         <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                         <div class="jobcontent">
@@ -526,7 +526,7 @@ if ($res->num_rows == 1) {
                                                             $stamp = strtotime($olddate);
                                                             $newdate = date("d-m-Y", $stamp);
                                                             ?>
-                                                            <div class="col-lg-3 mb-2">
+                                                            <div class="col-lg-3 col-md-6 mb-2">
                                                                 <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                     <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                     <div class="jobcontent">
@@ -548,7 +548,7 @@ if ($res->num_rows == 1) {
                                                             $stamp = strtotime($olddate);
                                                             $newdate = date("d-m-Y", $stamp);
                                                         ?>
-                                                            <div class="col-lg-3 mb-2">
+                                                            <div class="col-lg-3 col-md-6 mb-2">
                                                                 <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                     <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                     <div class="jobcontent">
@@ -571,7 +571,7 @@ if ($res->num_rows == 1) {
                                                                 $stamp = strtotime($olddate);
                                                                 $newdate = date("d-m-Y", $stamp);
                                                             ?>
-                                                                <div class="col-lg-3 mb-2">
+                                                                <div class="col-lg-3 col-md-6 mb-2">
                                                                     <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                         <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                         <div class="jobcontent">
@@ -595,7 +595,7 @@ if ($res->num_rows == 1) {
                                                                 $stamp = strtotime($olddate);
                                                                 $newdate = date("d-m-Y", $stamp);
                                                             ?>
-                                                                <div class="col-lg-3 mb-2">
+                                                                <div class="col-lg-3 col-md-6 mb-2">
                                                                     <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                         <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                         <div class="jobcontent">
@@ -619,7 +619,7 @@ if ($res->num_rows == 1) {
                                                                 $stamp = strtotime($olddate);
                                                                 $newdate = date("d-m-Y", $stamp);
                                                             ?>
-                                                                <div class="col-lg-3 mb-2">
+                                                                <div class="col-lg-3 col-md-6 mb-2">
                                                                     <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                         <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                         <div class="jobcontent">
@@ -641,7 +641,7 @@ if ($res->num_rows == 1) {
                                                         $stamp = strtotime($olddate);
                                                         $newdate = date("d-m-Y", $stamp);
                                                         ?>
-                                                        <div class="col-lg-3 mb-2">
+                                                        <div class="col-lg-3 col-md-6 mb-2">
                                                             <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                 <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                 <div class="jobcontent">
@@ -661,7 +661,7 @@ if ($res->num_rows == 1) {
                                                         $stamp = strtotime($olddate);
                                                         $newdate = date("d-m-Y", $stamp);
                                                     ?>
-                                                        <div class="col-lg-3 mb-2">
+                                                        <div class="col-lg-3 col-md-6 mb-2">
                                                             <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                 <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                 <div class="jobcontent">
@@ -682,7 +682,7 @@ if ($res->num_rows == 1) {
                                                             $stamp = strtotime($olddate);
                                                             $newdate = date("d-m-Y", $stamp);
                                                         ?>
-                                                            <div class="col-lg-3 mb-2">
+                                                            <div class="col-lg-3 col-md-6 mb-2">
                                                                 <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                     <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                     <div class="jobcontent">
@@ -704,7 +704,7 @@ if ($res->num_rows == 1) {
                                                             $stamp = strtotime($olddate);
                                                             $newdate = date("d-m-Y", $stamp);
                                                         ?>
-                                                            <div class="col-lg-3 mb-2">
+                                                            <div class="col-lg-3col-md-6 mb-2">
                                                                 <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                     <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                     <div class="jobcontent">
@@ -726,7 +726,7 @@ if ($res->num_rows == 1) {
                                                             $stamp = strtotime($olddate);
                                                             $newdate = date("d-m-Y", $stamp);
                                                         ?>
-                                                            <div class="col-lg-3 mb-2">
+                                                            <div class="col-lg-3 col-md-6 mb-2">
                                                                 <div class="shadow p-5 h-100" style="border-radius:25px">
                                                                     <h5 class="mb-2 fw-bolder f-17"><?php echo $job['Company_name'] ?></h5>
                                                                     <div class="jobcontent">
